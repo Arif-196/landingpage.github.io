@@ -1,0 +1,98 @@
+
+.navbar-brand {
+    font-family: Alfa Slab One;
+    font-style: italic;
+    font-size: 32px;
+    color:  #5b6d5b !important;
+}
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgba(0, 0 , 0, 0.7);
+    font-size: 25px bold;
+    color:  #5b6d5b !important;
+}
+
+.btn {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: -150px;
+  }
+  
+.content {
+    margin-top: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.card {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #5b6d5b;
+}
+
+p {
+    margin-bottom: 2px;
+}
+.aboutpb {
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.section {
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: #5b6d5b;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.spesifikasi {
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+.spesifikasi ul li {
+    list-style-position: inside;
+}
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    #myVideo {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      
+    
+
+}
